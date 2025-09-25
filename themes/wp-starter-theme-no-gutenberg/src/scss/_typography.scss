@@ -1,0 +1,97 @@
+// Add all global typography here
+
+/* Base */
+html {
+	// font-family:
+	font-size: 16px;
+}
+
+body {
+	color: var(--text-medium);
+	line-height: 1.6;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+	// font-family:
+	// color:
+	text-transform: uppercase;
+	line-height: 1;
+	margin-top: 24px;
+	margin-bottom: 16px;
+	letter-spacing: 1px;
+}
+
+pre {
+	// font-family:
+	// color: 
+	text-transform: uppercase;
+	line-height: 21px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+	letter-spacing: 0.6px;
+	font-size: 19px
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 40px; }
+h3 { font-size: 32px; }
+h4 { font-size: 24px; }
+
+/* Paragraphs */
+p {
+	font-size: 16px;
+	margin: 16px 0;
+}
+
+/* Lists */
+ul,
+ol {
+	font-size: 16px;
+	margin: 24px 0;
+	padding-left: 16px;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li {
+	padding-left: 8px;
+	
+	&::marker {
+		font-weight: 700;
+		// color: 
+	}
+}
+
+li + li {
+	margin-top: 8px;
+}
+
+/* Blockquote */
+blockquote {
+	// Add styles here
+}
+
+/* Links */
+a {
+	color: inherit;
+	text-decoration: underline;
+
+	&:hover,
+	&:focus {
+		// Add hover/focus styles here
+	}
+}
+
+strong {
+	font-weight: 700;
+}
