@@ -3,6 +3,7 @@
 @use './mixins';
 @use './typography';
 @use './helpers';
+@use './global';
 
 /* Vendors
 -------------------------------------------------------------- */
@@ -13,3 +14,5 @@
 
 /* Template parts
 -------------------------------------------------------------- */
+@use './page-templates/template-parts/header';
+@use './page-templates/template-parts/intro';

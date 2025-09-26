@@ -2,7 +2,8 @@
 
 /* Base */
 html {
-	// font-family:
+	font-family: var(--font-body);
+	color: var(--color-text-secondary);
 	font-size: 16px;
 }
 
@@ -16,9 +17,8 @@ h1,
 h2,
 h3,
 h4 {
-	// font-family:
-	// color:
-	text-transform: uppercase;
+	font-family: var(--font-heading);
+	color: var(--color-text-primary);
 	line-height: 1;
 	margin-top: 24px;
 	margin-bottom: 16px;
@@ -26,14 +26,7 @@ h4 {
 }
 
 pre {
-	// font-family:
-	// color: 
-	text-transform: uppercase;
-	line-height: 21px;
-	margin-top: 24px;
-	margin-bottom: 16px;
-	letter-spacing: 0.6px;
-	font-size: 19px
+	font-family: var(--font-pre);
 }
 
 h1 { font-size: 48px; }
@@ -68,7 +61,7 @@ li {
 	
 	&::marker {
 		font-weight: 700;
-		// color: 
+		color: var(--color-text-primary);
 	}
 }
 
@@ -78,7 +71,10 @@ li + li {
 
 /* Blockquote */
 blockquote {
-	// Add styles here
+	margin: 32px 0;
+	border: 2px solid var(--color-accent-blue);
+	padding: 23px 48px 25px 48px;
+	border-radius: 16px;
 }
 
 /* Links */
@@ -92,6 +88,8 @@ a {
 	}
 }
 
-strong {
+strong,
+b {
 	font-weight: 700;
+	color: var(--color-text-primary);
 }

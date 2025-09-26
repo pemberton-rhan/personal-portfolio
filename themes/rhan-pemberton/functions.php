@@ -6,8 +6,9 @@
 function global_scripts_and_styles() {
 	// Styles
 	$css = get_template_directory() . '/dist/app.css';
-	//wp_enqueue_style( 'font-roboto', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap', false );
-	//wp_enqueue_style( 'font-bebas', 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap', false );
+	wp_enqueue_style( 'font-roboto', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap', false );
+	wp_enqueue_style( 'font-bebas', 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap', false );
+	wp_enqueue_style( 'font-share-tech-mono', 'https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap', false );
 	wp_enqueue_style( 'css', get_template_directory_uri() . '/dist/site.css', [], file_exists($css) ? filemtime($css) : null );
 		
 	// Scripts

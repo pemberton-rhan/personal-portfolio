@@ -1,0 +1,21 @@
+section#intro {
+	picture {
+		width: 150px;
+		height: auto;
+		display: block;
+		overflow: hidden;
+		border-radius: 50%;
+		margin-bottom: 32px;
+		img {
+			display: block;
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.intro-content {
+		p:first-of-type {
+			font-size: 20px;
+		}
+	}
+}

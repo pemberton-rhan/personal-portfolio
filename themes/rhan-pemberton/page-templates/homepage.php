@@ -10,7 +10,10 @@
 <?php if ( have_rows( 'homepage' ) ) : ?>
 	<?php while ( have_rows( 'homepage' ) ) : the_row(); ?>
 
-		<!-- Add flexable content sections here -->
+		<!-- Intro -->
+		<?php if( get_row_layout() == 'intro' ): ?>
+			<?php get_template_part( 'page-templates/template-parts/intro' ); ?>
+		<?php endif; ?>
 
 	<?php endwhile; ?>
 <?php endif; ?>
