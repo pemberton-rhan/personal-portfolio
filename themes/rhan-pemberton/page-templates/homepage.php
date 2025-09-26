@@ -14,6 +14,11 @@
 		<?php if( get_row_layout() == 'intro' ): ?>
 			<?php get_template_part( 'page-templates/template-parts/intro' ); ?>
 		<?php endif; ?>
+		
+		<!-- WYSIWYG -->
+		<?php if( get_row_layout() == 'wysiwyg' ): ?>
+			<?php get_template_part( 'page-templates/template-parts/wysiwyg' ); ?>
+		<?php endif; ?>
 
 	<?php endwhile; ?>
 <?php endif; ?>
