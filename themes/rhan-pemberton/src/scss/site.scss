@@ -7,6 +7,7 @@
 
 /* Vendors
 -------------------------------------------------------------- */
+@use '../../node_modules/slick-carousel/slick/slick.scss';
 
 /* Page templates
 -------------------------------------------------------------- */
@@ -17,3 +18,5 @@
 @use './page-templates/template-parts/header';
 @use './page-templates/template-parts/intro';
 @use './page-templates/template-parts/wysiwyg';
+@use './page-templates/template-parts/logo-carousel';
+@use './page-templates/template-parts/footer';

@@ -50,3 +50,12 @@ class Custom_Walker_Nav_Menu extends Walker_Nav_Menu {
 		$output .= "$indent\t</div>\n$indent</ul>\n";
 	}
 }
+
+/* Allow SVGs
+-------------------------------------------------------------- */
+// Allow SVG upload
+function allow_svg_upload($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
+add_filter('upload_mimes', 'allow_svg_upload');

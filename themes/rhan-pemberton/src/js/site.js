@@ -4,12 +4,13 @@ jQuery(document).ready(function() {
 	
 	/* Vendors
 	-------------------------------------------------------------- */
-	// =include('path to file')
+	//=include('../../node_modules/slick-carousel/slick/slick.min.js')
 	
 	/* Page templates
 	-------------------------------------------------------------- */
 	
 	/* Template parts
 	-------------------------------------------------------------- */
+	//=include('./page-templates/template-parts/logo-carousel.js')
 	
 });

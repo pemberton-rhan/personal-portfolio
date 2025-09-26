@@ -19,6 +19,11 @@
 		<?php if( get_row_layout() == 'wysiwyg' ): ?>
 			<?php get_template_part( 'page-templates/template-parts/wysiwyg' ); ?>
 		<?php endif; ?>
+		
+		<!-- Logo Carousel -->
+		<?php if( get_row_layout() == 'logo_carousel' ): ?>
+			<?php get_template_part( 'page-templates/template-parts/logo-carousel' ); ?>
+		<?php endif; ?>
 
 	<?php endwhile; ?>
 <?php endif; ?>
