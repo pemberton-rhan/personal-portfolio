@@ -202,7 +202,7 @@
                                     "required": 1,
                                     "conditional_logic": 0,
                                     "wrapper": {
-                                        "width": "25",
+                                        "width": "",
                                         "class": "",
                                         "id": ""
                                     },
@@ -216,25 +216,70 @@
                                     "max_size": "",
                                     "mime_types": "",
                                     "allow_in_bindings": 0,
-                                    "preview_size": "full",
+                                    "preview_size": "medium",
                                     "parent_repeater": "field_68d6bdc9c7606"
                                 },
                                 {
-                                    "key": "field_68d6be4466ed8",
-                                    "label": "Link",
-                                    "name": "link",
+                                    "key": "field_68de86a88777b",
+                                    "label": "Project name",
+                                    "name": "project_name",
                                     "aria-label": "",
-                                    "type": "link",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "allow_in_bindings": 0,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_68d6bdc9c7606"
+                                },
+                                {
+                                    "key": "field_68de870b8777d",
+                                    "label": "Project URL",
+                                    "name": "project_url",
+                                    "aria-label": "",
+                                    "type": "url",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
                                     "wrapper": {
-                                        "width": "75",
+                                        "width": "50",
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "array",
+                                    "default_value": "",
                                     "allow_in_bindings": 0,
+                                    "placeholder": "",
+                                    "parent_repeater": "field_68d6bdc9c7606"
+                                },
+                                {
+                                    "key": "field_68de86fc8777c",
+                                    "label": "Project description",
+                                    "name": "project_description",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "allow_in_bindings": 0,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
                                     "parent_repeater": "field_68d6bdc9c7606"
                                 }
                             ]
@@ -271,5 +316,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1758907651
+    "modified": 1759420125
 }

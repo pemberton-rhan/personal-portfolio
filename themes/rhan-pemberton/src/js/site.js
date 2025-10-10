@@ -12,5 +12,6 @@ jQuery(document).ready(function() {
 	/* Template parts
 	-------------------------------------------------------------- */
 	//=include('./page-templates/template-parts/logo-carousel.js')
+	//=include('./page-templates/template-parts/featured-work-carousel.js')
 	
 });
