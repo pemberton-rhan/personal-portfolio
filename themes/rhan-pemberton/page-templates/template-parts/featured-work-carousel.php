@@ -9,7 +9,7 @@
 						<div class="featured-item">
 							<?php $image = get_sub_field('image'); ?>
 							<?php if ($image): ?>
-								<picture>
+								<picture class="shadow-default">
 									<img
 										src="<?php echo esc_url($image['url']); ?>"
 										alt="<?php echo esc_attr($image['alt']); ?>"

@@ -29,6 +29,11 @@
 		<?php if( get_row_layout() == 'featured_work_carousel' ): ?>
 			<?php get_template_part( 'page-templates/template-parts/featured-work-carousel' ); ?>
 		<?php endif; ?>
+		
+		<!-- Accordion Dropdown -->
+		<?php if( get_row_layout() == 'accordion_dropdown' ): ?>
+			<?php get_template_part( 'page-templates/template-parts/accordion-dropdown' ); ?>
+		<?php endif; ?>
 
 	<?php endwhile; ?>
 <?php endif; ?>
