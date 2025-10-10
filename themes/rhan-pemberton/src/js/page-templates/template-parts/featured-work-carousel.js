@@ -6,4 +6,5 @@ jQuery('#featured-work-carousel .featured-work').slick({
 	useTransform: true,
 	cssEase: "cubic-bezier(0.17, 0.66, 0.34, 0.98)",
 	speed: 1000,
-});
+	accessibility: true,
+	focusOnChange: true,

@@ -1,9 +1,15 @@
 section#featured-work-carousel {
-	margin: 48px 0;
+	overflow: hidden;
 	.featured-work {
 		.slick-list {
 			overflow: visible;
 			width: calc(100% + 32px);
+		}
+		.slick-track:hover {
+			cursor: grab;
+			&:active {
+				cursor: grabbing;
+			}
 		}
 		.slick-slide {
 			margin-right: 32px;
@@ -12,7 +18,6 @@ section#featured-work-carousel {
 				width: 100%;
 				height: auto;
 				aspect-ratio: 16 / 9;
-				box-shadow: 0 4px 12px rgba(37, 36, 34, 0.2);
 				border-radius: 16px;
 				overflow: hidden;
 				img {
