@@ -34,6 +34,11 @@
 		<?php if( get_row_layout() == 'accordion_dropdown' ): ?>
 			<?php get_template_part( 'page-templates/template-parts/accordion-dropdown' ); ?>
 		<?php endif; ?>
+		
+		<!-- Skills -->
+		<?php if( get_row_layout() == 'skills' ): ?>
+			<?php get_template_part( 'page-templates/template-parts/skills' ); ?>
+		<?php endif; ?>
 
 	<?php endwhile; ?>
 <?php endif; ?>
