@@ -39,6 +39,11 @@
 		<?php if( get_row_layout() == 'skills' ): ?>
 			<?php get_template_part( 'page-templates/template-parts/skills' ); ?>
 		<?php endif; ?>
+		
+		<!-- Contact Form -->
+		<?php if( get_row_layout() == 'contact_form' ): ?>
+			<?php get_template_part( 'page-templates/template-parts/contact-form' ); ?>
+		<?php endif; ?>
 
 	<?php endwhile; ?>
 <?php endif; ?>

@@ -1,0 +1,26 @@
+section#contact-form {
+	.gform_fields {
+		row-gap: 32px;
+		column-gap: 32px;
+		
+		input,
+		textarea {
+			border: none;
+			box-shadow: 0 4px 12px rgba(37, 36, 34, 0.2);
+			padding: 25px 20px;
+			border-radius: 16px;
+			font-family: var(--font-body);
+			font-size: 16px;
+		}
+		
+		textarea {
+			resize: none;
+		}
+		
+	}
+	
+	.gform-footer {
+		margin-top: 32px;
+		justify-content: flex-end;
+	}
+}
