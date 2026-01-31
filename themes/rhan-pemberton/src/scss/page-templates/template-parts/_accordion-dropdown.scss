@@ -11,8 +11,7 @@ section#accordion-dropdown {
 				align-items: center;
 				cursor: pointer;
 				h3 {
-					margin: 0;
-					font-size: 20px;
+					margin: 16px 0;
 				}
 				svg {
 					transform: rotate(0);
@@ -25,6 +24,9 @@ section#accordion-dropdown {
 			.item-content {
 				display: none;
 				padding: 0 32px 32px 32px;
+				h4 {
+					font-size: 18px;
+				}
 				& > *:first-child {
 					margin-top: 0;
 				}
