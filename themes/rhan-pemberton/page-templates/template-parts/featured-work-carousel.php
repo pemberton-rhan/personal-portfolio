@@ -21,11 +21,15 @@
 										<?php if( get_sub_field('project_url') ): ?>
 											<a class="project-url" href="<?php echo get_sub_field('project_url') ?>" target="_blank">
 												<span><?php the_sub_field('project_name'); ?></span>
-											</a> - 
-											<?php the_sub_field('project_description'); ?>
+											</a>
+											<?php if( get_sub_field('project_description') ): ?>
+												- <?php the_sub_field('project_description'); ?>
+											<?php endif; ?>
 										<?php else: ?>
-											<span><?php the_sub_field('project_name'); ?></span> - 
-											<?php the_sub_field('project_description'); ?>
+											<span><?php the_sub_field('project_name'); ?></span>
+											<?php if( get_sub_field('project_description') ): ?>
+												- <?php the_sub_field('project_description'); ?>
+											<?php endif; ?>
 										<?php endif; ?>
 									</p>
 								</div>

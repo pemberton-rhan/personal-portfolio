@@ -4,6 +4,10 @@ section#skills {
 		justify-content: space-between;
 		gap: 32px;
 		
+		@media (max-width: 767px) {
+			display: block;
+		}
+		
 		.column {
 			flex: 1;
 			

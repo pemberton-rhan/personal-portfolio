@@ -29,19 +29,20 @@ pre {
 }
 
 h1 { 
-	font-size: 48px; 
 	font-family: var(--font-heading);
+	font-size: clamp(35px, calc(30px + 1.78vw), 48px);
 }
 h2 { 
 	font-size: 40px;
-	font-family: var(--font-heading); 
+	font-family: var(--font-heading);
+	font-size: clamp(28px, calc(25px + 1.78vw), 40px);
 }
 h3 { 
-	font-size: 25px;
 	letter-spacing: 0;
 	color: var(--color-text-secondary);
 	font-family: var(--font-body);
 	font-weight: 500;
+	font-size: clamp(20px, calc(15px + 1.78vw), 25px);
 }
 h4 { 
 	font-size: 18px;

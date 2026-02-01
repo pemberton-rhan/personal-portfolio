@@ -15,6 +15,7 @@ section#contact-form {
 		
 		textarea {
 			resize: none;
+			height: 250px;
 		}
 		
 	}
@@ -22,5 +23,17 @@ section#contact-form {
 	.gform-footer {
 		margin-top: 32px;
 		justify-content: flex-end;
+		.gform_button {
+			border-radius: 16px;
+			padding: 15px 20px;
+			font-size: 18px;
+			text-transform: uppercase;
+			box-shadow: none;
+			transition: all 0.5s cubic-bezier(0.17, 0.66, 0.34, 0.98);
+			background-color: var(--color-text-secondary);
+			&:hover {
+				box-shadow: 0 4px 12px rgba(37, 36, 34, 0.2);
+			}
+		}
 	}
 }

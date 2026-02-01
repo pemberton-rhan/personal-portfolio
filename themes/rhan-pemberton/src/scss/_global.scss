@@ -1,4 +1,10 @@
 html {
 	background-color: var(--color-bg-lite);
 	text-wrap-style: pretty;
+	
+	footer {
+		p {
+			opacity: .5;
+		}
+	}
 }

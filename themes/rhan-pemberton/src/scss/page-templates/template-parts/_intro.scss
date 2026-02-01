@@ -1,5 +1,8 @@
 section#intro {
 	margin-bottom: 67px;
+	@media (max-width: 900px) {
+		margin-bottom: 55px;
+	}
 	
 	picture {
 		width: 150px;
@@ -8,6 +11,11 @@ section#intro {
 		overflow: hidden;
 		border-radius: 50%;
 		margin-bottom: 48px;
+		
+		@media (max-width: 900px) {
+			width: 100px;
+			margin-bottom: 35px;
+		}
 
 		img {
 			display: block;
@@ -19,5 +27,8 @@ section#intro {
 
 	.intro-content > p:first-of-type {
 		font-size: 20px;
+		@media (max-width: 767px) {
+			font-size: 18px;
+		}
 	}
 }

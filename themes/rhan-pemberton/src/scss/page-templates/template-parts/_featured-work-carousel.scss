@@ -4,6 +4,9 @@ section#featured-work-carousel {
 		.slick-list {
 			overflow: visible;
 			width: calc(100% + 32px);
+			@media (max-width: 767px) {
+				width: calc(100% + 20px);
+			}
 		}
 		.slick-track:hover {
 			cursor: grab;
@@ -13,6 +16,9 @@ section#featured-work-carousel {
 		}
 		.slick-slide {
 			margin-right: 32px;
+			@media (max-width: 767px) {
+				margin-right: 20px;
+			}
 			picture {
 				display: block;
 				width: 100%;
@@ -25,6 +31,7 @@ section#featured-work-carousel {
 					object-fit: cover;
 					width: 100%;
 					height: 100%;
+					max-width: 700px;
 				}
 			}
 			.project-details {
