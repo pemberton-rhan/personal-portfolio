@@ -14,6 +14,8 @@
 										src="<?php echo esc_url($image['url']); ?>"
 										alt="<?php echo esc_attr($image['alt']); ?>"
 										title="<?php echo esc_attr($image['title']); ?>"
+										fetchpriority="high"
+										loading="eager"
 									/>
 								</picture>
 								<div class="project-details">

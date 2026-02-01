@@ -10,7 +10,8 @@
 						src="<?php echo esc_url( $image['url'] ); ?>"
 						alt="<?php echo esc_attr( $image['alt'] ); ?>"
 						title="<?php echo esc_attr( $image['title'] ); ?>"
-						loading="lazy"
+						fetchpriority="high"
+						loading="eager"
 					/>
 				</picture>
 			<?php endif; ?>
